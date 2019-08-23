@@ -4,6 +4,8 @@ const auto = new AutoSequilize('AppWorkDB', 'database', "PB<W5%]P9HQKRtAk", {
     host: 'localhost',
     dialect: "mssql",
     directory: "./models",
+    camelCase: true,
+    dashesForFileName: true,
     additional: {
         timestamps: false
     },
